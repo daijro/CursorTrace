@@ -45,13 +45,6 @@ class Ui_MainWindow(object):
                 high_threshold=high_threshold,
             )
 
-            self.edges = skimage.feature.canny(
-                image=image,
-                sigma=sigma,
-                low_threshold=low_threshold,
-                high_threshold=high_threshold,
-            )
-
             #viewer = skimage.viewer.ImageViewer(self.edges)
             #viewer.show()
 
